@@ -4,41 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* nav {
-  display: flex;
-  justify-content: space-between;
-}
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 35px;
-  margin: 0;
-  padding: 10px;
-}
-a {
-  color: #47b2e4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #73c5eb;
-  text-decoration: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-.nav a i {
-  font-size: 12px;
-  margin-left: 5px;
-}
-nav a {
-  margin: 0 20px;
-  font-size: 20px;
-} */
 body {
   width: 100%;
   font-family: "Nunito Sans", sans-serif;
@@ -113,7 +78,6 @@ nav {
   display: none;
 }
 
-/* media query for screen size less than 1200px */
 
 @media (max-width: 1200px) {
   .navLinks {
@@ -121,7 +85,7 @@ nav {
   }
 }
 
-/* media query for screen size less than 992px */
+
 
 @media (max-width: 992px) {
   .logo {
@@ -134,7 +98,6 @@ nav {
   }
 }
 
-/* media query for screen size less than 768px */
 
 @media (max-width: 768px) {
   .logo {
@@ -183,7 +146,7 @@ nav {
   .nli4,
   .nli5 {
     border-bottom: 1px solid rgb(135, 135, 225);
-    m
+
   }
   .getStartedBtn {
     border: none;
@@ -198,5 +161,3 @@ nav {
     display: flex;
   }
 }
-/* @media (max-width: 576px) {
-} */

@@ -31,7 +31,7 @@ nav {
 }
 
 .navLinks {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@ nav {
   color: white;
 }
 .navLinks a:hover {
-    color: rgb(120, 181, 234);
+  color: rgb(120, 181, 234);
 }
 .getStartedBtn {
   border: none;
@@ -78,14 +78,11 @@ nav {
   display: none;
 }
 
-
 @media (max-width: 1200px) {
   .navLinks {
-    width: 60%;
+    width: 40%;
   }
 }
-
-
 
 @media (max-width: 992px) {
   .logo {
@@ -97,7 +94,6 @@ nav {
     margin-right: 50px;
   }
 }
-
 
 @media (max-width: 768px) {
   .logo {
@@ -146,7 +142,6 @@ nav {
   .nli4,
   .nli5 {
     border-bottom: 1px solid rgb(135, 135, 225);
-
   }
   .getStartedBtn {
     border: none;
